@@ -10,6 +10,6 @@
     * Confirm that you see nada
     * Pull up the dev tools and see an unhappy debugger. (You may need to refresh.)
 1. Uninstall the LS tracer: `npm uninstall --save lightstep-tracer`
-1. Install the branch with the fix: `npm install --save "git://github.com/lightstep/lightstep-tracer-javascript#iredelmeier/revert-protobufjs-removal"`
+1. Install the branch with the fix: `npm install --save "git://github.com/lightstep/lightstep-tracer-javascript#iredelmeier/dist-rebuild-207"`
 1. Restart the dev server: `npx webpack-dev-server`
 1. Reload in IE11 and see a happy little message
